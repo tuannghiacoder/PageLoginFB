@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>pageLoginFB</title>
+  </head>
+  <body class="bg-blue-50"> 
+    <div class="container w-full h-[800px] m-auto">
+      <!-- content -->
+      <div class="flex flex row">
+        <!-- item left -->
+        <div class="float-left ml-[100px] col-md-7 col-lg-6">
+          <h2 class="text-green-500 text-5xl mt-[100px] font-bold ">facebook</h2>
+          <p class="text-3xl font-bold pt-[15px]">Đăng nhập gần đây</p>
+          <p class="text-gray-500 pt-[2px]">
+            Nhấp vào ảnh của bạn hoặc thêm tài khoản.
+          </p>
+          <!-- two buttom item left -->
+          <div class="pt-[10px]">
+            <!-- buttom 1 -->
+            <button
+              class="bg-white-400 mt-[20px] hover:-translate-y-1 scale-110 hover:transition-all duration-300 shadow-2xl"
+            >
+              <img
+                class="rounded-t-lg"
+                src="./images/logo fb.png"
+                alt="logo-fb"
+              />
+              <p class="text-gray-900 pt-[20px] rounded-b-lg bg-white p-[10px]">
+                Tuấn Nghĩa
+              </p>
+            </button>
+            <!-- buttom 2 -->
+            <button
+              class="ml-[50px] hover:-translate-y-1 scale-110 hover:transition-all duration-300 shadow-2xl"
+            >
+              <div
+                class="w-[157px] h-[157px] bg-gray-100 rounded-t-lg relative"
+              >
+                <svg
+                  class="text-white absolute top-12 left-12 right-0 bottom-0 w-[50px] h-[50px] bg-blue-500 rounded-full"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 6v12m6-6H6"
+                  />
+                </svg>
+              </div>
+              <p class="text-blue-500 p-[10px] pt-[20px] bg-white rounded-b-lg">
+                Thêm tài khoản
+              </p>
+            </button>
+          </div>
+        </div>
+
+        <!-- item right -->
+        <div class="float-right col-md-5 col-lg-6 ml-[350px] mt-[150px]">
+          <!-- tạo form đăng kí fb -->
+         
+          <div class="w-[400px] h-[450px] bg-gray-100 rounded-lg shadow-xl">
+           
+              <input
+                placeholder="Email hơặc số điện thoại"
+                class="rounder-lg w-[340px] m-auto ml-[30px] h-[50px] mt-[20px] rounded-lg"
+                type="email"
+              />
+              <input
+                placeholder="Mật Khẩu"
+                class="w-[340px] h-[50px] mt-[20px] ml-[30px] rounded-lg"
+                type="password"
+              />
+              <button
+                type="button"
+                class="w-[340px] h-[50px] mt-[20px] rounded-lg bg-blue-700 text-xl text-white font-bold ml-[30px] mb-[20px]"
+              >
+                Đăng Nhập</button
+              ><br />
+
+              <a
+                class="text-blue-500 ml-[130px] mb-[10px] hover:text-red-500"
+                href="#"
+                >Quên Mật Khẫu?</a
+              >
+              <div
+                class="w-[380px] h-[1px] ml-[10px] bg-gray-300 mt-[15px]"
+              ></div>
+              <button
+                type="button "
+                class="mt-[30px] w-[200px] h-[50px] ml-[100px] font-bold bg-green-500 text-xl text-white rounded-lg"
+              >
+                Tạo tài khoản mới
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
